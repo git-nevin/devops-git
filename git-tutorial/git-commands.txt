@@ -1,4 +1,6 @@
 git init
+git config --global user.email "nevin.cleetus@gmail.com"
 
+git commit
 git remote add origin "https://github.com/git-nevin/devops-git.git"  
-
+git push origin master
