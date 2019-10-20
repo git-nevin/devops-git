@@ -3,4 +3,30 @@ git config --global user.email "nevin.cleetus@gmail.com"
 
 git commit
 git remote add origin "https://github.com/git-nevin/devops-git.git"  
-git push origin master
+git push origin master/git push origin branchname
+
+
+To clone a repository
+git clone "https://github.com/git-nevin/devops-git.git"
+git branch 
+git checkout branchname
+
+git log
+
+git stash  -> To save the changes not commited
+git stash pop -> To retain the saved changes back to the branch  
+git revert <commit id>
+git diff commit-id1 commit-id2
+git diff HEAD .
+git log --oneline
+git log --author="nevin"
+
+git add added some wrong data 
+git diff --staged    (git add added some wrong data)
+git reset HEAD HelloWordl.java (Unstage the change done using git add)
+git diff HEAD~1 (Latest 1 diff will be commited)
+git diff 
+git checkout HEAD~3 Helloworld.java (To get the version of the file before 3 checkin)
+git checkout origin branchname
+ 
+
